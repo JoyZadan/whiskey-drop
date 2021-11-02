@@ -3,16 +3,9 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-.container-wrapper {
-}
-
 .container-wrapper--purple {
     background-color: #3f0535;
     color: white;
-}
-
-.container-wrapper--favorite {
-    
 }
 
 .alert-container .col-12 {
@@ -52,13 +45,6 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, .7);
 }
-
-.quotes-container {}
-
-.features-container {}
-
-.favorite-container {}
-
 
 /* Page Headers */
 
