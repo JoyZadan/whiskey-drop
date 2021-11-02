@@ -1,0 +1,226 @@
+body {
+    font-family: 'Tangerine', cursive;
+    font-family: 'Merriweather', serif;
+}
+
+.container-wrapper {
+}
+
+.container-wrapper--purple {
+    background-color: #3f0535;
+    color: white;
+}
+
+.container-wrapper--favorite {
+    
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    color: #3f0535;
+    background-color: #d0f10a;
+    border-color: #d0f10a;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/hero_bg.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.favorite-container {}
+
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/* Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #f19f0a;
+}
+
+.block-divider--orange {
+    background-color: #f19f0a;
+}
+
+.block-divider--short {
+    width: 35px;
+
+}
+
+
+/* Content Containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 38px;
+    font-family: 'Tangerine';
+    text-shadow: 4px 4px 4px #7a7976;
+}
+
+#navbarNavDropdown {
+        padding-bottom: 10px;
+        padding-left: 5px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-size: 32px;
+    font-weight: light;
+    font-style: italic;
+    margin-bottom: 30px;    
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 25px 0;
+    color: #ac9999;
+}
+
+.jumbotron small {
+    font-size: 80%;
+    font-style: italic;
+    color: #d0d0d0
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 22px;
+    width: 180px;
+}
+
+.btn--orange {
+    color: white;
+    text-align: center;
+    background-color: #f19f0a;
+    border-color: #f19f0a;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    background-color: #3f0535;
+    border-color: #3f0535;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;  
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+    text-align: center;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.badge-success--green {
+    color: #3f0535;
+    background-color: #d0f10a;
+    border-color: #d0f10a;
+    font-weight: bold;
+    border-radius: 22px;
+    width: 80px;
+}
+
+.feature .btn {
+    color: #3f0535;
+    background-color: white;
+    border-color: #3f0535;
+    border-radius: 22px;
+    min-width: 100px;
+}
